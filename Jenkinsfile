@@ -10,8 +10,7 @@ pipeline
 							        bat 'echo Hello World!'
 								        bat '''
 									            echo 'multiline shell steps'
-										                ls -lah
-												        '''
+										              												        '''
 													        }
 														        }
 															        }
