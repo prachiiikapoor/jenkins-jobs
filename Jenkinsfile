@@ -7,8 +7,8 @@ pipeline
 				        {
 					        steps
 						        {
-							        sh 'echo Hello World!'
-								        sh '''
+							        bat 'echo Hello World!'
+								        bat '''
 									            echo 'multiline shell steps'
 										                ls -lah
 												        '''
